@@ -2,7 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: "* 8,9,10,11,12,13,14,15,16,17 * * 1,2,3,4,5" # every 5mins from 8am to 5pm, Monday to Friday.
+    - cron: "00,05,10,15,20,25,30,35,40,45,50,55 8,9,10,11,12,13,14,15,16,17 * * 1,2,3,4,5" # every 5mins from 8am to 5pm, Monday to Friday.
   workflow_dispatch:
 
 jobs:
