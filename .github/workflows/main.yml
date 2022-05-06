@@ -2,8 +2,7 @@ name: Get Feed
 
 on:
   schedule:
-    - cron: "00,15,30,45 7,8,9,10,11,12,13,14 * * 1,2,3,4,5" # every 15mins from 9am to 5pm, Monday to Friday.
-
+    - cron: "00 7 * * *" # everyday at 9am.
 jobs:
   get-feed:
     runs-on: ubuntu-latest
